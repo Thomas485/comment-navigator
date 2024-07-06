@@ -30,3 +30,16 @@ for _, cf in ipairs(comment_filetypes) do
 end
 ```
 
+## Configuration
+
+You can find all options [here](https://github.com/Thomas485/comment-navigator/blob/main/lua/comment_navigator/init.lua#L51-L59)
+
+### predefined comment styles
+
+You can find a list [here](https://github.com/Thomas485/comment-navigator/blob/main/lua/comment_navigator/init.lua#L119-L124)
+
+### custom comments
+
+Just use your own (lua)regex.
+
+The first capture is the indentation, the second the text to show.
